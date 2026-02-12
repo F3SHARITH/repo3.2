@@ -1,0 +1,88 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fondo general */
+body {
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Navegación */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #93c5fd;
+}
+
+/* Línea */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+}
+
+/* Secciones */
+main {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Botón */
+button {
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1e40af;
+}
+
+/* Noticias */
+article {
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* Footer */
+footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
